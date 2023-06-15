@@ -1,0 +1,42 @@
+main, main + section{
+    display: flex;
+
+}
+
+main section, main + section section{
+    border: 1px solid lightslategray;
+    width: 100%;
+    text-align: center;
+    color: rgb(66, 57, 46);
+    height: 200px;
+    
+}
+
+@media all and (max-width: 600px){
+    main{
+        display: block;
+    }
+    #schild{
+        background: pink;
+    }
+    #model4{
+        background: lightblue;
+
+    }
+    #model5{
+        background: gray;
+
+    }
+    
+}
+
+@media all and (min-width: 601px){
+    #firstchild{
+        background: orange;
+    }
+    #tchild{
+
+        background: pink;
+    }
+
+}
